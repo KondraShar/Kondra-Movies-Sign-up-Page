@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.page {
+    background-color: white;
+    width: 70vw;
+    height: 100vh;
+}
+
+.page > img {
+    height: 100%;
+    width: auto;
+    float: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder {
+    width: 400px;
+    height: 100px;
+    background-color: bisque;
+}
+
+.contact-container {
+    border: 2px solid black;
+
+}
+
+.contact-ticket {
+    height: 200px;
+    width: 50vh;
+    background-color: black;
+}
+
+.submit-area {
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+}
