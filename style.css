@@ -42,8 +42,17 @@ body {
 
 fieldset {
     display: flex;
+    
 }
 
+.name,
+.details,
+.password {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
 
 .contact-ticket {
     height: 200px;
