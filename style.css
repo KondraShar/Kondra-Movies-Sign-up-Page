@@ -62,7 +62,28 @@ fieldset {
 }
 
 .submit-area {
-    height: 100px;
-    width: 100px;
-    background-color: crimson;
+    height: 80px;
+    width: 16rem;
+    margin: 18px;
+}
+
+button {
+    padding: 8px;
+    width: 180px;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    margin: 8px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: #ff6666;
+}
+
+button:active {
+    background-color: #ff4d4d;
+}
+
+.submit-area > p {
+    font-size: 0.8rem;
 }
