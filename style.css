@@ -44,6 +44,9 @@ body {
 fieldset {
     display: flex;
     font-size: 0.8rem;
+    border: none;
+    display: flex;
+    gap: 1rem;
 }
 
 .name,
@@ -59,7 +62,7 @@ fieldset {
     height: 200px;
     width: 400px;
     padding-left: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     padding-right: 12rem;
     display: flex;
     flex-direction: column;
