@@ -31,10 +31,11 @@ body {
 }
 
 .service-info {
-    width: 400px;
-    height: 100px;
-    background-color: bisque;
+    width: 32rem;
     font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
 }
 
 fieldset {
