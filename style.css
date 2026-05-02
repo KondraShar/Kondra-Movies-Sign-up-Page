@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Futura','OxProto Nerd Font Mono','Courier New', Courier, monospace;
 }
 
 body {
@@ -33,6 +34,7 @@ body {
     width: 400px;
     height: 100px;
     background-color: bisque;
+    font-weight: 600;
 }
 
 .contact-container {
@@ -42,7 +44,7 @@ body {
 
 fieldset {
     display: flex;
-    
+    font-size: 0.8rem;
 }
 
 .name,
