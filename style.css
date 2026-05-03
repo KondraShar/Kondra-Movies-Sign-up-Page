@@ -17,9 +17,58 @@ body {
     display: flex;
 }
 
-.page > img {
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 35vw;
+    flex: 0 0 35vw;
+    overflow: hidden;
+}
+
+#popcorn {
+    width: 100%;
     height: 100%;
-    float: left;
+    object-fit: cover;
+    display: block;
+}
+
+#logo {
+    width: 60px;
+}
+
+#company-name {
+    font-family: 'Norse', 'Futura';
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+#photo-credits {
+    position: absolute;
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 200;
+    bottom: 8px;
+    right: 5px;
+}
+
+#photo-credits > a {
+    text-decoration: underline;
+    color: white;
+}
+
+.hero-section {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
 }
 
 .container {
