@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <script src="formvalidation.js" defer></script>
     <title>Kondra Movies</title>
 </head>
 <body>
@@ -24,7 +25,7 @@
                 <p>You know you want to.</p>
             </div>
 
-            <form class="contact-container">
+            <form id="signupForm" class="contact-container">
                 <div class="contact-ticket">
                     <fieldset class="user-name">
                         <div class="name">
@@ -51,13 +52,16 @@
                     <fieldset class="user-password">
                         <div class="password">
                             <label for="first-password">PASSWORD</label>
-                            <input type="password" id="first-password" name="first_password" required>
+                            <input type="password" id="first-password" name="first_password" minlength="8" required>
                         </div>
                         <div class="password">
                             <label for="second-password">CONFIRM PASSWORD</label>
-                            <input type="password" id="second-password" name="last_password" required>
+                            <input type="password" id="second-password" name="last_password" minlength="8" required>
                         </div>
                     </fieldset>
+                        <div id="passwordMessage">
+
+                        </div>
                 </div>
 
                 <div class="submit-area">

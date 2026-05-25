@@ -101,6 +101,10 @@ fieldset {
     gap: 1rem;
 }
 
+#passwordMessage {
+    font-size: 0.7rem;
+}
+
 .name,
 .details,
 .password {
