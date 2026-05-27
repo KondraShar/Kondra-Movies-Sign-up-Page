@@ -36,11 +36,9 @@ A cinema-themed sign-up page built with HTML, CSS, and JavaScript.
 
 1. Clone the repository:
 
-```bash
-
 git clone https://github.com/KondraShar/Kondra-Movies-Sign-up-Page.git
 
-1. Open ⁠index.html⁠ in your browser.
+2. Open ⁠index.html⁠ in your browser.
 
 No build tools or dependencies required — it’s pure HTML, CSS, and JS.
 
